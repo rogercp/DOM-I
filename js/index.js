@@ -75,7 +75,7 @@ let roundImage=document.querySelector("#cta-img");
 roundImage.src="img/header-img.png";
 
 
-//middle section
+//middle section 2 items
 //////////////////////
 let topContent1=document.querySelector(".top-content div:nth-child(1) h4 "); 
  topContent1.textContent="Features";
@@ -87,12 +87,26 @@ topContent2.textContent="About";
 let topContent22=document.querySelector(".top-content div:nth-child(2) p");
 topContent22.textContent="About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
 
-
-
-
+////middle img
+////////////////////
 let bigImage=document.querySelector("#middle-img");
 bigImage.setAttribute("src", siteContent["main-content"]["middle-img-src"]);
 
+//middle section 3 items
+let bottomContent1=document.querySelector(".bottom-content div:nth-child(1) h4");
+bottomContent1.textContent="Services";
+let bottomContent11=document.querySelector(".bottom-content div:nth-child(1) p");
+bottomContent11.textContent="Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+
+let bottomContent2=document.querySelector(".bottom-content div:nth-child(2) h4");
+bottomContent2.textContent="Product";
+let bottomContent22=document.querySelector(".bottom-content div:nth-child(2) p");
+bottomContent22.textContent="Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+
+let bottomContent3=document.querySelector(".bottom-content div:nth-child(3) h4");
+bottomContent3.textContent="Vision";
+let bottomContent33=document.querySelector(".bottom-content div:nth-child(3) p");
+bottomContent33.textContent="Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
 
 
 //footer
