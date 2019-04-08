@@ -59,5 +59,15 @@ nav5.textContent="About";
 let nav6=document.querySelector("nav a:nth-child(6)");
 nav6.textContent="Contact";
 
+let centerTxt=document.querySelector(".cta-text h1");
+centerTxt.innerHTML="DOM<br> Is<br> Awesome";
+
+let button1=document.querySelector("button");
+button1.textContent="Get Started";
+
+let roundImage=document.querySelector("#cta-img");
+roundImage.src="img/header-img.png";
+
+
 
 
