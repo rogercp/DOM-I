@@ -41,8 +41,11 @@ const siteContent = {
 
 //navigation
 //////////////////
+
+
 let logo = document.getElementById("logo-img");
-logo.setAttribute('src', siteContent["nav"]["img-src"])
+logo.setAttribute('src', siteContent["nav"]["img-src"]);
+ 
 
 let nav1=document.querySelector("nav a:nth-child(1)");
 nav1.textContent="Services";
@@ -61,6 +64,8 @@ nav5.textContent="About";
 
 let nav6=document.querySelector("nav a:nth-child(6)");
 nav6.textContent="Contact";
+
+
 
 
 //top section
@@ -124,7 +129,27 @@ let footerContentP3=document.querySelector(".contact p:nth-child(4)");
 footerContentP3.textContent="sales@greatidea.io"
 
 
+//append and prepend
+////////////////////////
+let nav=document.querySelector('header > nav');
+
+let prepended_link=document.createElement("a");
+prepended_link.textContent="Hello";
+prepended_link.setAttribute("href","#");
+nav.prepend(prepended_link);
+
+let node2=document.createElement("a");
+let node22=document.createTextNode("World");
+node2.setAttribute("href","#");
+node2.appendChild(node22);
+document.querySelector("header nav").appendChild(node2);
 
 
+
+let colorChange=document.querySelectorAll("a");
+colorChangeArray=Array.from(colorChange);
+colorChangeArray.forEach(element=>{
+  element.style.color="green";
+})
 
 
